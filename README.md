@@ -137,6 +137,8 @@ Sellest, kuidas koduste ülesannete lahendusi tavaliselt esitatakse, räägime e
 
 Siin tuleb muidugi meeles pidada ka seda, et kõik õpetajad/õppejõud ei kasuta GitHub-i oma õppeainetes.
 
+> Joonisel näidatud GH Tööriist on kolledži poolt loodud rakendus, mis võimaldab õpilastele edastada koduseid ülesandeid ja jälgida nende olekut. Selle eesmärk on lihtsustada õpetajate tööd ja toetada õpilaste õppimist. Tegemist on õpetajatele mõeldud tööriistaga ja õpilased sellega otseselt kokku ei puutu.
+
 ---
 
 ## GitHub Projects
@@ -186,3 +188,11 @@ Meie eesmärk on, et õpingute jooksul kujuneks GitHub sinu igapäevaseks tööv
 ## Discord
 
 Lisaks GitHubile kasutame õppeprotsessi toetamiseks ka Discordi. Discord on suhtlusplatvorm, kus toimub igapäevane suhtlus, küsimuste esitamine ja vastuste saamine. Samuti on Discord integreeritud meie GitHubi õpikeskkonnaga, mis annab meile erinevaid võimalus. Näiteks saad Discordi kaudu teavitusi oma tegemata koduste ülesannete kohta, nende staatuste muutusest (esitatud, vastu võetud jne) ning ka muudest olulistest teadetest.
+
+---
+
+## Mida võiks veel GitHub-i põhise õpikeskkonna kohta teada?
+
+Igale kolledži poolt hallatavasse organisatsiooni on paigaldataud GitHubi rakendus, mis saadab automaatselt kõik organisatsioonis toimunud sündmuste kohta kolledži poolt hallatavasse rakendusse, mille eesmärk on aru saada erinevate koduste ülesannetega seotud tegevustest, aru saada õpilaste aktiivsusest ja tegevuse kontekstist. See rakendus on loodud kolledži poolt ning selle eesmärk on toetada õppeprotsessi ja tagada, et kõik vajalikud tegevused oleksid jälgitavad.
+
+Samuti kasutatakse GitHubis toimunud sündmuseid erinevates uuringutes, mille kohta küsitakse igalt õpilaselt eraldi nõusolekut.
