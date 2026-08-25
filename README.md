@@ -8,7 +8,7 @@ Praktilistes ainetes kasutame peamise õpikeskkonnana GitHubi. Kuigi GitHub on m
 
 GitHubis:
 
-- avaldatakse ülesandeid;
+- antakse ülesandeid;
 - arendatakse lahendusi;
 - tehakse meeskonnatööd;
 - antakse ja saadakse tagasisidet;
@@ -23,22 +23,9 @@ Meie eesmärk ei ole õpetada ainult programmeerimist. Sama oluline on õppida k
 
 Meie GitHubi keskkond koosneb kolmest organisatsiooni tüübist. Igal neist on oma kindel eesmärk ning koos moodustavad need tervikliku õpikeskkonna.
 
-```text
-                   Tallinna Ülikool
-                          │
-             Instituudi GitHub organisatsioon
-                          │
-        ┌─────────────────┴─────────────────┐
-        │                                   │
- Õppekava organisatsioon              Õppekava organisatsioon
-      (RIF26)                              (RIF27)
-        │
-   ┌────┴──────────────────────────────┐
-   │                                   │
-Sinu organisatsioon         Kaasüliõpilase organisatsioon
-```
+Kui püüda meie õpikeskkonna ülesehitust visualiseerida, siis võiks see olla midagi sellist:
 
----
+![TLÜ GitHubi struktuur](TLÜ-struktuur.png)
 
 ## 1. Instituudi organisatsioon
 
@@ -55,6 +42,8 @@ Siin paiknevad näiteks:
 Instituudi organisatsioon on koht, kust algab enamik õppetööst. Siit leiad vajalikud materjalid ning juhendid, mida erinevates ainetes kasutatakse.
 
 Seda võib võrrelda ülikooli digitaalse raamatukogu ja tööriistakoguga.
+
+Haapsalu kolledži rakendusinformaatika õppekava GitHubi organisatsiooni leiad siit: [Haapsalu kolledži rakendusinformaatika õppekava GitHubi organisatsioon](https://github.com/tluhk)
 
 ---
 
@@ -79,6 +68,8 @@ Selle peamine eesmärk on toetada kogu lennu ühist tegevust.
 - erinevad katsed ja pilootprojektid, mis puudutavad kogu õppekava või suuremat üliõpilaste rühma.
 
 Lihtsamalt öeldes on see koht, kus kohtuvad kõik ühe lennu üliõpilased ning kus toimub nende ühine praktiline tegevus.
+
+RIF26 õppekava organisatsiooni leiad siit: [RIF26 õppekava organisatsioon](https://github.com/TLUHK-RIF26)
 
 ---
 
@@ -107,6 +98,15 @@ See tähendab, et õpid lisaks programmeerimisele ka:
 
 Sinu organisatsioon jääb sulle alles ka pärast õpinguid ning sellest võib kujuneda oluline osa sinu professionaalsest portfooliost.
 
+Sinu isikliku organisatsiooni aadress on tavaliselt kujul: `https://github.com/TLUHK-RIF26-<Eesnimi-Perekonnanimi>`
+
+> Kõikide organisatsioonide hoidlatel on kolm võimalikku nähtavuse taset: **Public**, **Internal** ja **Private**.
+>
+> - **Public** vaade tähendab, et kõik GitHubi kasutajad näevad sinu organisatsiooni ja selle projekte.
+> - **Internal** vaade tähendab, et ainult sinu organisatsiooni liikmed näevad selle projekte.
+> - **Private** vaade tähendab, et ainult sina ja sinu määratud koostööpartnerid näevad sinu isiklikke projekte.
+>   Vaikimisi on kõikide üliõpilaste organisatsioonid seatud Private vaatesse, mis tähendab, et ainult sinaja sinu määratud koostööpartnerid näevad sinu isiklikke projekte. Lisaks on vaikimisi õppeainete repositooriumitele ligipääs automaatselt õppeaine õpetaja(te)l ja õppekava juhil.
+
 ---
 
 ## Kes omab mida?
@@ -127,37 +127,7 @@ Selline ülesehitus võimaldab selgelt eristada, millised ressursid kuuluvad ül
 
 Enamik õppeaineid, mis kasutavad GitHubi, kasutavad seda ka koduste ülesannete andmisel ja lahenduste esitamisel. Tavaline töövoog on järgmine:
 
-```text
-Õppejõud avaldab ülesande
-           │
-           ▼
-Õpilase organisatsiooni luuakse vastava hoidla alla GitHub Issue
-           │
-           ▼
-Lood lahenduse jaoks uue haru (Branch)
-           │
-           ▼
-Arendad lahendust
-           │
-           ▼
-Teed Commit'id
-           │
-           ▼
-Avad Pull Request'i
-           │
-           ▼
-Lisad õpeataja ülevaatajaks
-           │
-           ▼
-Saad tagasisidet
-           │
-           ▼
-Teed parandused (kui vajalik)
-           │
-           ▼
-Õpetaja kinnitab lahenduse, liites Pull Request'i põhiharuga (Merge)
-
-```
+![Hargnemismudel](hargnemismudel.png)
 
 Sellist töövoogu kasutatakse väga paljudes tarkvaraarendusettevõtetes üle maailma. Õpingute jooksul harjud sellega loomulikul viisil ning omandad töövõtted, mida saad hiljem kasutada ka tööelus.
 
@@ -176,6 +146,10 @@ Kodused ülesanded, mis tulevad läbi GitHubi, lisatakse automaatselt ka teie in
 ---
 
 ## Miks me kasutame GitHubi?
+
+Meie lähenemise eesmärk on kasutada GitHubi nii õpiobjekti, kui õpikeskkonnana, milles mõlemad toetavad versioonihalduse õppimist.
+
+![kahesuunaline-lahenemine](kahesuunaline-lahenemine.png)
 
 GitHub võimaldab õppida palju enamat kui ainult koodi haldamist.
 
