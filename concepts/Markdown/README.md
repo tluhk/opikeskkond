@@ -37,7 +37,7 @@ Pärast selle teema läbimist oskad:
 - kirjeldada Markdowni plusse ja miinuseid;
 - kasutada Markdowni teksti vormindamiseks;
 - kasutada Markdowni dokumentatsioonis, blogimises ja muudel eesmärkidel.
-- kasutada Markdowni Githubis.
+- kasutada Markdowni GitHubis.
 
 ## Mis on Markdown?
 
@@ -61,7 +61,7 @@ Levinumad märgendikeeled on näiteks:
 - **Loetavus:** Markdowni dokumendid koosnevad tavalisest tekstist, seega need on loetavad isegi ilma teisele formaadile konverteerimata.
 - **_Kaasaskantavus_:** Kuna need on tavalised tekstifailid, on Markdowni dokumendid OS-agnostilised ja neid saab avada mis tahes tekstiredaktoriga.
 - **Paindlik väljund:** Markdowni saab konverteerida mitmesugusteks formaatideks, sealhulgas HTML-iks, PDF-iks ja isegi MS Word'i või LaTeX formaati.
-- **Levinud kasutamine:** Markdown-i toetavad paljud platvormid, nagu GitHub, Reddit, Stack Exchange ja isegi sõnumirakendused nagu Slack ja Discord. Samuit on Markdown populaarne valik dokumentatsiooni ja blogimise jaoks.
+- **Levinud kasutamine:** Markdown-i toetavad paljud platvormid, nagu GitHub, Reddit, Stack Exchange ja isegi sõnumirakendused nagu Slack ja Discord. Samuti on Markdown populaarne valik dokumentatsiooni ja blogimise jaoks.
 - **Versioonikontrolli sõbralik:** Kuna tegemist on tavalise tekstiga, töötab Markdown sujuvalt versioonikontrollisüsteemidega nagu Git.
 - **Pole vaja spetsialiseeritud tarkvara:** Markdowni saab kirjutada mis tahes tekstiredaktoris. Lisaks on olemas spetsialiseeritud Markdowni redaktorid, mis pakuvad täiendavaid funktsioone, nagu eelvaade ja kiire konverteerimine.
 
@@ -142,7 +142,7 @@ või
    2. Alamese 2.2
 ```
 
-> Github võib mõningal määral näidata Markdown-i erinevalt, näiteks eelpool toodud loendit näidatakse nii:
+> GitHub võib mõningal määral näidata Markdown-i erinevalt, näiteks eelpool toodud loendit näidatakse nii:
 
 1. Esimene ese
 2. Teine ese

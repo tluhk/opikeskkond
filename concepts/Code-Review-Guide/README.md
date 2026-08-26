@@ -2,6 +2,8 @@
 
 Sellest, mida koodi ülevaatus endast kujutab ja millised on selle eelised, saab lugeda [siit](../Code-Review/README.md). Kuidas aga koodi ülevaatus praktikas toimub? Selleks, et koodi ülevaatust saaks teha, tuleb teha mõned konkreetsed sammud.
 
+See juhend kirjeldab töövoogu, kus muudatused esitatakse haru ja Pull Request'i kaudu. Õppetöös sõltub täpne esitamise viis konkreetsest ülesandest: mõnikord võib lahenduseks olla ka GitHub Issue kommentaar.
+
 - [Koodi ülevaatuse juhend](#koodi-ülevaatuse-juhend)
   - [Koodi ülevaatuse protsess](#koodi-ülevaatuse-protsess)
     - [Uue haru loomine](#uue-haru-loomine)
@@ -28,7 +30,7 @@ Käesoleva kursuse raames kasutatavate tööriistadega näeb kogu eelnev protses
 
 ### Uue haru loomine
 
-Uue haru loomiseks on mitu võimalust. Üks variant on avada *Github Desktop*, vajutada nupule *Current branch* ja valida *New branch*. Seejärel tuleb sisestada haru nimi ja vajutada nupule *Create branch*.
+Uue haru loomiseks on mitu võimalust. Üks variant on avada *GitHub Desktop*, vajutada nupule *Current branch* ja valida *New branch*. Seejärel tuleb sisestada haru nimi ja vajutada nupule *Create branch*.
 
 ![Uue haru loomine](new-branch.png)
 
@@ -36,21 +38,21 @@ Uue haru loomiseks on mitu võimalust. Üks variant on avada *Github Desktop*, v
 
 > **NB!** Haru nimi peaks olema lühike ja kirjeldav. Praeguses näites on haru nimi `homework-1`, mis viitab sellele, et haru on loodud kodutöö esitamiseks.
 
-Kui haru on loodud, võib vajutada nupule *Publish branch*, et haru üles laadida *Github* keskkonda (see ei ole kohustuslik, kuid soovitatav).
+Kui haru on loodud, võib vajutada nupule *Publish branch*, et haru üles laadida *GitHub* keskkonda (see ei ole kohustuslik, kuid soovitatav).
 
 ![Publish Branch](publish-branch.png)
 
-Peale viimast tegevust on ka *Github* keskkonnas näha uus haru.
+Peale viimast tegevust on ka *GitHub* keskkonnas näha uus haru.
 
-![Branch in Github](branch-in-github.png)
+![Branch in GitHub](branch-in-github.png)
 
 ### Muudatuste tegemine
 
-Nüüd, kui uus haru on loodud, võib hakata tegema muudatusi koodibaasi. Enne muudatuste tegemise alustamist tuleks üle veenduda, et ollakse õiges harus. Seda saab kontrollida *Github Desktop*  rakenduses, kus on *Current branch* nupul näha aktiivse haru nimi.
+Nüüd, kui uus haru on loodud, võib hakata tegema muudatusi koodibaasi. Enne muudatuste tegemise alustamist tuleks üle veenduda, et ollakse õiges harus. Seda saab kontrollida *GitHub Desktop*  rakenduses, kus on *Current branch* nupul näha aktiivse haru nimi.
 
 ![Current Branch](current-branch.png)
 
-Kui Sul ei ole veel koodieditor avatud, siis kõige kiiremini saad selle avada *Github Desktop* rakendusest, vajutades nupule *Open in Visual Studio Code* (või mõni muu koodiredaktor).
+Kui Sul ei ole veel koodieditor avatud, siis kõige kiiremini saad selle avada *GitHub Desktop* rakendusest, vajutades nupule *Open in Visual Studio Code* (või mõni muu koodiredaktor).
 
 ![Open in VSCode](open-in-vscode.png)
 
@@ -58,41 +60,41 @@ Aktiivse haru nimi peaks olema näha ka *VS Code* rakenduses (või mõnes muus k
 
 ![Branch in VS Code](branch-in-vscode.png)
 
-Nüüd võib hakata tegema muudatusi koodibaasi, sealhulgas uute failide loomine, uue funktsionaalsuse lisamine, vigade parandamine jne. Mingi ajaperioodi tagant tuleks teha *commit*-e ja *push*-e, et muudatused oleksid registreeritud ja kättesaadavad *Github* keskkonnas.
+Nüüd võib hakata tegema muudatusi koodibaasi, sealhulgas uute failide loomine, uue funktsionaalsuse lisamine, vigade parandamine jne. Mingi ajaperioodi tagant tuleks teha *commit*-e ja *push*-e, et muudatused oleksid registreeritud ja kättesaadavad *GitHub* keskkonnas.
 
 > **NB!** *Commit*-i tegemisel tuleks lisada ka *commit*ile kirjeldus, mis kirjeldab, mida muudatused endast kujutavad. See aitab teistel arendajatel ja ka iseendal hiljem aru saada, mida muudatused endast kujutavad.
 
 ![Muudatused](changes.png)
 
-*Commit*-e ja *push*-e saab teha *Github Desktop* rakendusest, vajutades nupule *Commit to `haru nimi`* ja seejärel *Push origin*.
+*Commit*-e ja *push*-e saab teha *GitHub Desktop* rakendusest, vajutades nupule *Commit to `haru nimi`* ja seejärel *Push origin*.
 
 ![Commit](commit.png)
 
-> *Github Desktop* rakenduses on ka näha, mis faile on muudetud ja mida on muudetud.
+> *GitHub Desktop* rakenduses on ka näha, mis faile on muudetud ja mida on muudetud.
 
-Peale *commit*-i tegemist ilmub nähtavale *Push* nupp, millele vajutades saab muudatused üles laadida *Github* keskkonda.
+Peale *commit*-i tegemist ilmub nähtavale *Push* nupp, millele vajutades saab muudatused üles laadida *GitHub* keskkonda.
 
 ![Push](push.png)
 
 ### Tõmbetaotluse loomine
 
-Kui muudatused on tehtud, need *commit*-itud ja *push*-itud, siis on tehtud muudatused näha ka *Github* keskkonnas. Kui tahad veenduda, et muudatused on tõesti üles laetud, saad neid näha *Github* keskkonnas, valides kõigepealt õige haru ja seejärel vaadates muudatusi.
+Kui muudatused on tehtud, need *commit*-itud ja *push*-itud, siis on tehtud muudatused näha ka *GitHub* keskkonnas. Kui tahad veenduda, et muudatused on tõesti üles laetud, saad neid näha *GitHub* keskkonnas, valides kõigepealt õige haru ja seejärel vaadates muudatusi.
 
-![Branch in Github](branch-in-github.png)
+![Branch in GitHub](branch-in-github.png)
 
 ![Selected Branch](selected-branch.png)
 
 > Siin on näha, et `homework-1` haru on valitud ja on näha, et sinna on lisandunud kaust `homework` ja *commit*-i kirjeldus - `Create exercise.js`.
 
-Nüüd on võimalik luua tõmbetaotlus (*Pull Request*), et paluda muudatusi ühendada põhikoodibaasiga. Selleks on taas mitu võimalust. Kui oled juba *Github* keskkonnas, siis saad vajutada sinna ilmunud nupule *Compare & pull request*.
+Nüüd on võimalik luua tõmbetaotlus (*Pull Request*), et paluda muudatusi ühendada põhikoodibaasiga. Selleks on taas mitu võimalust. Kui oled juba *GitHub* keskkonnas, siis saad vajutada sinna ilmunud nupule *Compare & pull request*.
 
 ![Compare and Pull Request](comapre-and-pull-request.png)
 
-Või kui oled *Github Desktop* rakenduses, siis saad vajutada nupule *Create pull request*.
+Või kui oled *GitHub Desktop* rakenduses, siis saad vajutada nupule *Create pull request*.
 
 ![Create Pull Request](create-pull-request.png)
 
-Mõlemal juhul viiakse Sind *Github* keskkonnas samale lehele, kus saad luua tõmbetaotluse. Lehe ülaosas on näha, milliste harude vahel tõmbetaotlus tehakse. Lisaks saad määrata tõmbetaotlusele pealkirja ja kirjelduse, et teised arendajad saaksid aru, mida muudatused endast kujutavad.
+Mõlemal juhul viiakse Sind *GitHub* keskkonnas samale lehele, kus saad luua tõmbetaotluse. Lehe ülaosas on näha, milliste harude vahel tõmbetaotlus tehakse. Lisaks saad määrata tõmbetaotlusele pealkirja ja kirjelduse, et teised arendajad saaksid aru, mida muudatused endast kujutavad.
 
 ![Create Pull Request Title](create-pull-request-title.png)
 
@@ -104,7 +106,7 @@ Enne veel, kui tõmbetaotlus luuakse, saab määrata koodi ülevaataja (*Reviewe
 
 ![Reviewers List](reviewers-list.png)
 
-> Siin on näha, et koodi ülevaatajaks on määratud `mrttlu`.
+> Siin on näha, et koodi ülevaatajaks on määratud näites kasutatud juhendaja või kaasõppija.
 >
 > Koodi ülevaatajaks võib olla üks või mitu arendajat, sõltuvalt projekti nõuetest ja meeskonna suurusest.
 
@@ -118,7 +120,7 @@ Kui koodi ülevaataja on määratud, saab luua tõmbetaotluse, vajutades nupule 
 
 ### Koodi ülevaatus
 
-Koodi ülevaatuse määramise kohta tuleb teade ülevaatajaks määratud arendajale e-mailie või *Github* keskkonna teavituste kaudu.
+Koodi ülevaatuse määramise kohta tuleb teade ülevaatajaks määratud arendajale e-maili või *GitHub* keskkonna teavituste kaudu.
 
 ![E-mail](e-mail-about-review.png)
 
@@ -142,7 +144,7 @@ Praegusel hetkel oletame, et koodi ülevaataja on rahul muudatustega ja kinnitab
 
 ![Submit Review](submit-review.png)
 
-> Selle kursuse raames on sellel hetkel vaja määrata veel üks koodi ülevaataja (`mrtrvl`), kes annab lõpliku kinnituse muudatustele ja ühendab muudatuse põhikoodibaasiga.
+> Mõnes õppeaines võib olla vaja määrata ka õppejõud või juhendaja täiendavaks ülevaatajaks, kes annab lõpliku kinnituse muudatustele ja ühendab muudatuse põhikoodibaasiga.
 
 Seejärel on võimalik tõmbetaotlus ühendada põhikoodibaasiga, vajutades nupule *Merge pull request*.
 

@@ -95,7 +95,7 @@ Arendajad peavad järgima oma organisatsiooni määratletud kodeerimisjuhiseid j
 
 - Koodi kirjutamine.
 - Disaini muutmine funktsionaalseks tarkvaraks.
-- Erinevate komponentide integratisoon ja koostöö tagamine.
+- Erinevate komponentide integratsioon ja koostöö tagamine.
 
 ### Testimine
 

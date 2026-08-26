@@ -17,6 +17,13 @@ GitHubis:
 
 Meie eesmärk ei ole õpetada ainult programmeerimist. Sama oluline on õppida kasutama töövõtteid ja tööriistu, mida kasutatakse igapäevaselt tarkvaraarendusettevõtetes.
 
+Kui mõni mõiste on uus, saad vajaduse korral kõrvale avada toetavad materjalid:
+
+- [Versioonihaldus](concepts/Version-Control/README.md)
+- [Git](concepts/Git/README.md)
+- [GitHub](concepts/Github/README.md)
+- [Markdown](concepts/Markdown/README.md)
+
 ---
 
 ## GitHubi ökosüsteem
@@ -87,7 +94,7 @@ Sinu organisatsioonis paiknevad:
 - katsetused;
 - isiklik portfoolio.
 
-Erinevalt tavalisest GitHubi kasutamisest ei tööta sa üksikutes juhuslikes hoidlatest, vaid haldad omaenda organisatsiooni.
+Erinevalt tavalisest GitHubi kasutamisest ei tööta sa üksikutes juhuslikes hoidlates, vaid haldad omaenda organisatsiooni.
 
 See tähendab, et õpid lisaks programmeerimisele ka:
 
@@ -100,12 +107,12 @@ Sinu organisatsioon jääb sulle alles ka pärast õpinguid ning sellest võib k
 
 Sinu isikliku organisatsiooni aadress on tavaliselt kujul: `https://github.com/TLUHK-RIF26-<Eesnimi-Perekonnanimi>`
 
-> Kõikide organisatsioonide hoidlatel on kolm võimalikku nähtavuse taset: **Public**, **Internal** ja **Private**.
+GitHubis võib hoidla nähtavus sõltuda sellest, millise konto või organisatsiooni all hoidla asub. Tavalised nähtavuse tasemed on **Public** ja **Private**. GitHub Enterprise'i organisatsioonides võib lisaks olla kasutusel ka **Internal** nähtavus.
 >
 > - **Public** vaade tähendab, et kõik GitHubi kasutajad näevad sinu organisatsiooni ja selle projekte.
-> - **Internal** vaade tähendab, et ainult sinu organisatsiooni liikmed näevad selle projekte.
+> - **Internal** vaade tähendab, et hoidlat näevad sama GitHub Enterprise'i keskkonna liikmed, kellel on selleks ligipääs.
 > - **Private** vaade tähendab, et ainult sina ja sinu määratud koostööpartnerid näevad sinu isiklikke projekte.
->   Vaikimisi on kõikide üliõpilaste organisatsioonid seatud Private vaatesse, mis tähendab, et ainult sinaja sinu määratud koostööpartnerid näevad sinu isiklikke projekte. Lisaks on vaikimisi õppeainete repositooriumitele ligipääs automaatselt õppeaine õpetaja(te)l ja õppekava juhil.
+>   Vaikimisi on kõikide üliõpilaste organisatsioonid seatud Private vaatesse, mis tähendab, et ainult sina ja sinu määratud koostööpartnerid näevad sinu isiklikke projekte. Lisaks on vaikimisi õppeainete repositooriumitele ligipääs automaatselt õppeaine õpetaja(te)l ja õppekava juhil.
 
 ---
 
@@ -131,11 +138,19 @@ Enamik õppeaineid, mis kasutavad GitHubi, kasutavad seda ka koduste ülesannete
 
 Sellist töövoogu kasutatakse väga paljudes tarkvaraarendusettevõtetes üle maailma. Õpingute jooksul harjud sellega loomulikul viisil ning omandad töövõtted, mida saad hiljem kasutada ka tööelus.
 
-Samas ei ole see ainukene kasutatav töövoog. Sageli kasutame ka lihtsalt GitHub-i Issue-sse lisatavat kommentaari koduse ülesande lahendusena. Näiteks võib koduse ülesande lahenduseks olla arvamus või kirjeldus, mille lisad Issue kommentaarina. Sellisel juhul ei ole vaja luua eraldi haru ega Pull Request'i.
+Kui see töövoog on sulle uus, aitavad järgmised materjalid:
+
+- [Harudega töötamine](concepts/Branch/README.md)
+- [GitHub Issue](concepts/Github-Issue/README.md)
+- [Koodi ülevaatus](concepts/Code-Review/README.md)
+- [Koodi ülevaatuse juhend](concepts/Code-Review-Guide/README.md)
+- [Git ja GitHubi parimad praktikad](concepts/Git-Best-Practices/README.md)
+
+Samas ei ole see ainukene kasutatav töövoog. Sageli kasutame ka lihtsalt GitHubi Issue-sse lisatavat kommentaari koduse ülesande lahendusena. Näiteks võib koduse ülesande lahenduseks olla arvamus või kirjeldus, mille lisad Issue kommentaarina. Sellisel juhul ei ole vaja luua eraldi haru ega Pull Request'i.
 
 Sellest, kuidas koduste ülesannete lahendusi tavaliselt esitatakse, räägime eraldi koduseid ülesandeid andes ja kirjeldus on tavaliselt ka kirjas koduses ülesandes endas.
 
-Siin tuleb muidugi meeles pidada ka seda, et kõik õpetajad/õppejõud ei kasuta GitHub-i oma õppeainetes.
+Siin tuleb muidugi meeles pidada ka seda, et kõik õpetajad/õppejõud ei kasuta GitHubi oma õppeainetes.
 
 > Joonisel näidatud GH Tööriist on kolledži poolt loodud rakendus, mis võimaldab õpilastele edastada koduseid ülesandeid ja jälgida nende olekut. Selle eesmärk on lihtsustada õpetajate tööd ja toetada õpilaste õppimist. Tegemist on õpetajatele mõeldud tööriistaga ja õpilased sellega otseselt kokku ei puutu.
 
@@ -166,6 +181,8 @@ GitHub võimaldab õppida palju enamat kui ainult koodi haldamist.
 
 Need oskused on tänapäeva tarkvaraarenduses sama olulised kui programmeerimisoskus.
 
+Tarkvaraarenduse üldisema protsessi mõistmiseks vaata ka materjali [Tarkvaraarenduse elutsükkel (SDLC)](concepts/SDLC/README.md).
+
 ---
 
 ## Mida saad õpingute lõpuks?
@@ -187,12 +204,12 @@ Meie eesmärk on, et õpingute jooksul kujuneks GitHub sinu igapäevaseks tööv
 
 ## Discord
 
-Lisaks GitHubile kasutame õppeprotsessi toetamiseks ka Discordi. Discord on suhtlusplatvorm, kus toimub igapäevane suhtlus, küsimuste esitamine ja vastuste saamine. Samuti on Discord integreeritud meie GitHubi õpikeskkonnaga, mis annab meile erinevaid võimalus. Näiteks saad Discordi kaudu teavitusi oma tegemata koduste ülesannete kohta, nende staatuste muutusest (esitatud, vastu võetud jne) ning ka muudest olulistest teadetest.
+Lisaks GitHubile kasutame õppeprotsessi toetamiseks ka Discordi. Discord on suhtlusplatvorm, kus toimub igapäevane suhtlus, küsimuste esitamine ja vastuste saamine. Samuti on Discord integreeritud meie GitHubi õpikeskkonnaga, mis annab meile erinevaid võimalusi. Näiteks saad Discordi kaudu teavitusi oma tegemata koduste ülesannete kohta, nende staatuste muutusest (esitatud, vastu võetud jne) ning ka muudest olulistest teadetest.
 
 ---
 
-## Mida võiks veel GitHub-i põhise õpikeskkonna kohta teada?
+## Mida võiks veel GitHubi põhise õpikeskkonna kohta teada?
 
-Igale kolledži poolt hallatavasse organisatsiooni on paigaldataud GitHubi rakendus, mis saadab automaatselt kõik organisatsioonis toimunud sündmuste kohta kolledži poolt hallatavasse rakendusse, mille eesmärk on aru saada erinevate koduste ülesannetega seotud tegevustest, aru saada õpilaste aktiivsusest ja tegevuse kontekstist. See rakendus on loodud kolledži poolt ning selle eesmärk on toetada õppeprotsessi ja tagada, et kõik vajalikud tegevused oleksid jälgitavad.
+Igale kolledži poolt hallatavasse organisatsiooni on paigaldatud GitHubi rakendus, mis saadab automaatselt kõik organisatsioonis toimunud sündmuste kohta kolledži poolt hallatavasse rakendusse, mille eesmärk on aru saada erinevate koduste ülesannetega seotud tegevustest, aru saada õpilaste aktiivsusest ja tegevuse kontekstist. See rakendus on loodud kolledži poolt ning selle eesmärk on toetada õppeprotsessi ja tagada, et kõik vajalikud tegevused oleksid jälgitavad.
 
 Samuti kasutatakse GitHubis toimunud sündmuseid erinevates uuringutes, mille kohta küsitakse igalt õpilaselt eraldi nõusolekut.

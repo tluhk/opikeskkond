@@ -105,6 +105,6 @@ Järgmisena proovi lõpetada järgmised ülesanded:
 
 - Loo oma repositooriumis `.gitignore` fail.
 - Lisa `draft.md` `.gitignore` faili.
-- `commit`-i .gitignore` fail oma repositooriumisse.
+- `commit`-i `.gitignore` fail oma hoidlasse.
 - Loo uus fail nimega `draft.md` ja lisa sinna mõningane sisu.
 - Kontrolli, kas `draft.md` on Git'i poolt ignoreeritud (proovi seda `commit`-ida).

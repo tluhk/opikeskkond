@@ -43,7 +43,7 @@ Pärast selle teema läbimist suudad:
 Siin on mõned **Git**i peamised aspektid ja omadused:
 
 - **Hajutatud süsteem**: Erinevalt kesksetest versioonihaldussüsteemidest, kus on üks keskne hoidla, on **Git**is iga arendaja arvutis olev koodikoopia ka hoidla, mis võib sisaldada kogu ajalugu ja versioonijälgimise võimalusi. See tagab andmete dubleerimise ja muudab harude loomise ja ühendamise äärmiselt tõhusaks.
-- **Harud ja ühendamine** (*Branch* ja *Merge*): **Git**i harusüsteem võimaldab arendajatel luua peamisest koodibaasist isoleeritud harusid funktsioonide arendamiseks või vigade parandamiseks. Need harud saab seejärel ühendada tagasi peamisse harusse, mis on tavaliselt tuntud kui "master/main" haru.
+- **Harud ja ühendamine** (*Branch* ja *Merge*): **Git**i harusüsteem võimaldab arendajatel luua peamisest koodibaasist isoleeritud harusid funktsioonide arendamiseks või vigade parandamiseks. Need harud saab seejärel ühendada tagasi peamisse harusse, mille nimi on GitHubis uutes hoidlates tavaliselt `main`. Vanemates projektides võib sama rolli täita ka `master` haru.
 - **Ajalugu**: **Git** jälgib kogu projekti ajalugu. Iga muudatuste fikseerimine on kontrollsummeeritud ja taastatav, tagades tervikluse ja jälgitavuse.
 - **Muudatuste fikseerimine** (*commit*): **Git** võimaldab arendajatel fikseerida muudatused koodibaasis, millele on lisatud sõnum, mis kirjeldab muudatuste olemust. `commit` on justkui fikseeritud olek koodibaasis, mida saab hiljem taastada.
 - **Ettevalmistusala**: **Git** tutvustab ainulaadset kontseptsiooni ettevalmistusalast. See on vaheala, kus `commit`-e saab vormistada ja üle vaadata enne `commit`-imise lõpuleviimist.
@@ -80,7 +80,7 @@ Git'il on ainulaadne arhitektuur ja andmemudel, mis muudab selle tõhusaks ja v�
   - Liikuv viide `commit`-ile.
   - Kui loote haru, loob Git viite `commit`-ile, kus te praegu olete.
   - Uute `commit`-ide loomisel liigub haru viide automaatselt viimasele `commit`-ile.
-  - Enamikus hoidlates on vaikimisi haru nimega "master" (kuigi hiljuti on täheldatud nihet nimetamaks seda "main"-iks).
+  - GitHubis on uute hoidlate vaikimisi haru tavaliselt `main`. Vanemates Git'i projektides võid kohata ka nime `master`.
   
 
 See arhitektuur, mis on üles ehitatud suunatud tsüklita graafi objektidele, võimaldab Git'il tõhusalt jälgida muudatusi, luua harusid ja ühendada ajalugusid. SHA-1 räside kasutamine tagab hoidla tervikluse ja järjepidevuse kloonide ja versioonide vahel.
@@ -99,11 +99,12 @@ Git'il on oma unikaalne sõnavara ja nende terminite mõistmine on tõhusaks tö
   - Failide muudatuste kogum. Iga `commit` on unikaalselt tuvastatud SHA-1 räsi koodiga.
   - Esindab hoidla failide ja kataloogistruktuuri hetkeseisu teatud ajahetkel.
 - **Haru (Branch)**:
-  - Hoidla paralleelne versioon. See hargneb peatööprojektist eraldi alasse, kus saate töötada ilma peamist või "master/main" haru mõjutamata.
+  - Hoidla paralleelne versioon. See hargneb peatööprojektist eraldi alasse, kus saate töötada ilma peamist ehk `main` haru mõjutamata.
   - Kasulik uute funktsioonide arendamiseks või ideede testimiseks.
-- **Master või main**:
-  - Vaikimisi arendusharu. Iga kord, kui loote Git'i hoidla, luuakse haru nimega "master" või "main" ja see saab aktiivseks haruks.
-  > Märkus: Tööstuses on täheldatud nihet nimetamaks seda vaikimisi haru "main"-iks.
+- **`main` ja `master`**:
+  - Peamine arendusharu on haru, mille pealt alustatakse tavaliselt uusi muudatusi ja kuhu valmis muudatused lõpuks ühendatakse.
+  - GitHubis on uute hoidlate vaikimisi haru tavaliselt `main`.
+  - `master` on ajalooline vaikimisi nimi, mida näed endiselt paljudes vanemates projektides või käsurealt loodud hoidlates.
 - **Kloon (Clone)**:
   - Hoidla koopia, mis asub kohalikus arvutis, mitte kusagil serveris või algse hoidla saidil.
   - `git clone [URL]` on käsk, mida kasutatakse hoidla kloonimiseks (või kopeerimiseks) olemasolevast URL-ist.
@@ -123,7 +124,7 @@ Git'il on oma unikaalne sõnavara ja nende terminite mõistmine on tõhusaks tö
   - Tekib siis, kui konkureerivaid muudatusi tehakse sama faili samale reale või kui üks inimene muudab faili ja teine inimene kustutab sama faili.
   - Sellisel juhul tõstab Git esile erinevused ja nõuab, et valiksite, milliseid muudatusi hoida.
 - **Tõmbetaotlus (Pull Request)**:
-  - Platvormidel nagu `GitHub` on tõmbetaotlus viis muudatuste pakkumiseks forkist või harust, mida saab seejärel ühendada teise harusse, tavaliselt `master/main` harusse.
+  - Platvormidel nagu `GitHub` on tõmbetaotlus viis muudatuste pakkumiseks forkist või harust, mida saab seejärel ühendada teise harusse, tavaliselt `main` harusse.
 - **`Lavastusala` (või indeks)**:
   - Vaheala, kus `commit`-e saab vormistada ja üle vaadata enne `commit`-i lõpuleviimist.
   - `git add [file_name]` kasutatakse muudatuste lisamiseks `lavastusala`le.
